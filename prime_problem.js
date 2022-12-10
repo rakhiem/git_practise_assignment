@@ -1,3 +1,4 @@
+
 //prime
 
  let num=13;
@@ -20,4 +21,5 @@ console.log("It is Prime.");
 else
 {
 console.log("It is not prime");
+
 }
