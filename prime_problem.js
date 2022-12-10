@@ -1,13 +1,25 @@
- let num=13;
- let count=0;
 
-for (let i=1; i<=num; i++){
-  if (num%i==0){
-    count++;
-  }
+//prime
+
+ let num=13;
+ function checkprime(num){
+let check=true;
+for(let i=2;i<num;i++)
+{
+if(num%i==0)
+{
+check =false;
+break;
 }
-if (count==2){
-  console.log ("Yes");
-} else {
-  console.log ("No");
+}
+return check;
+}
+if(checkprime(num)==true)
+{
+console.log("It is Prime.");
+}
+else
+{
+console.log("It is not prime");
+
 }
